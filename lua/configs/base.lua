@@ -4,9 +4,6 @@ local opt = vim.opt
 local bo = vim.bo
 
 opt.termguicolors = true
--- Leader
-g.mapleader = ","
-g.maplocalleader = ","
 
 -- Tab Settings
 o.tabstop = 4
@@ -45,5 +42,5 @@ o.number = true
 o.numberwidth = 6
 o.relativenumber = true
 o.undofile = true
-o.undofile = "(~/.local/share/nvim/undodir/)"
+o.undodir = vim.fn.expand('~/.local/share/nvim/undodir/')
 o.laststatus = 2
