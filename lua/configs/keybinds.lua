@@ -4,8 +4,8 @@ local function map(m, k, v)
 end
 
 -- Leader
-g.mapleader = " "
-g.maplocalleader = " "
+g.mapleader = ","
+g.maplocalleader = ","
 
 -- Remap Normal Mode
 map("i", "ii", "<ESC>")
