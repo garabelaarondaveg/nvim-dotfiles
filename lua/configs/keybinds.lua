@@ -8,12 +8,12 @@ g.mapleader = ","
 g.maplocalleader = ","
 
 -- Remap Normal Mode
-map("i", "ii", "<ESC>")
-map("i", "<ESC>", "<NOP>")
-map("v", "ii", "<ESC>")
-map("v", "<ESC>", "<NOP>")
-map("c", "ii", "<ESC>")
-map("c", "<ESC>", "<NOP>")
+-- map("i", "ii", "<ESC>")
+-- map("i", "<ESC>", "<NOP>")
+-- map("v", "ii", "<ESC>")
+-- map("v", "<ESC>", "<NOP>")
+-- map("c", "ii", "<ESC>")
+-- map("c", "<ESC>", "<NOP>")
 
 -- Disable arrow keys
 map("n", "<Up>", "<Nop>")
@@ -43,3 +43,6 @@ map("n", "<C-w>", "<cmd> tabclose<CR>")
 
 -- Clear highlights
 map("n", "<leader>h", "<cmd>nohlsearch<CR>")
+
+-- Colorizer Toggle
+map("n", "<leader>c", "<cmd>ColorizerToggle<CR>")
