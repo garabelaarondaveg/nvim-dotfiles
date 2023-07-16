@@ -4,8 +4,8 @@ local function map(m, k, v)
 end
 
 -- Leader
-g.mapleader = ","
-g.maplocalleader = ","
+g.mapleader = " "
+g.maplocalleader = " "
 
 -- Remap Normal Mode
 -- map("i", "ii", "<ESC>")
@@ -14,6 +14,9 @@ g.maplocalleader = ","
 -- map("v", "<ESC>", "<NOP>")
 -- map("c", "ii", "<ESC>")
 -- map("c", "<ESC>", "<NOP>")
+
+-- Open Netrw
+map("n", "<leader>f", vim.cmd.Ex)
 
 -- Disable arrow keys
 map("n", "<Up>", "<Nop>")
@@ -46,3 +49,5 @@ map("n", "<leader>h", "<cmd>nohlsearch<CR>")
 
 -- Colorizer Toggle
 map("n", "<leader>c", "<cmd>ColorizerToggle<CR>")
+
+map("x", "<leader>p", "\"_dP")
