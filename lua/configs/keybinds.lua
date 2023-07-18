@@ -35,8 +35,8 @@ map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
 -- Alias replace all to S
-map("n", "<C-s>", ":%s//g")
-map("v", "<C-s>", ":s//g")
+map("n", "<leader>s", "<cmd> %s//g<CR>")
+map("v", "<leader>s", "<cmd> %s//g<CR>")
 
 -- Tabs
 map("n", "<C-t>", "<cmd> tabnew<CR>")
