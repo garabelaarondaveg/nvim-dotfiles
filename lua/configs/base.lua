@@ -10,7 +10,7 @@ o.tabstop = 4
 o.softtabstop = 4
 o.expandtab = true
 o.shiftwidth = 4
-o.scrolloff = 4
+o.scrolloff = 5
 
 -- Show file status
 o.ruler = true
