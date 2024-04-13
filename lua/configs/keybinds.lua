@@ -48,6 +48,6 @@ map("n", "<C-w>", "<cmd> tabclose<CR>")
 map("n", "<leader>h", "<cmd>nohlsearch<CR>")
 
 -- Colorizer Toggle
-map("n", "<leader>c", "<cmd>ColorizerToggle<CR>")
+-- map("n", "<leader>c", "<cmd>ColorizerToggle<CR>")
 
 map("x", "<leader>p", "\"_dP")

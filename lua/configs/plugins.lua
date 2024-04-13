@@ -21,8 +21,8 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
 --  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   -- Nvim Color base16
-  use 'RRethy/nvim-base16'
-  use 'norcalli/nvim-colorizer.lua'
+  -- use 'RRethy/nvim-base16'
+  -- use 'norcalli/nvim-colorizer.lua'
   -- LSP's
   use 'neovim/nvim-lspconfig'
   use 'williamboman/mason.nvim'
